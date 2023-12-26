@@ -13,3 +13,7 @@ map.set('n', '<leader>sv', '<C-w>v') -- 垂直分割窗口
 map.set('n', '<leader>sh', '<C-w>s') -- 水平分割窗口
 -- 关闭搜索高亮
 map.set('n', '<leader>nh', ':nohl<CR>') -- 关闭搜索高亮
+
+-------------------- 插件 --------------------
+-- nvim-tree
+map.set('n', 'tr', ':NvimTreeToggle<CR>') -- 打开/关闭文件树

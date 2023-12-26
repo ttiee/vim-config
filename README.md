@@ -33,3 +33,4 @@ Plugin Install | 插件安装
 - 文档树: [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
 - 文档树图标: [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 - 自动补全括号: [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs)
+- 语法高亮: [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
