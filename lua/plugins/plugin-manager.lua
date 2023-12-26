@@ -21,6 +21,7 @@ local plugins = {
     "nvim-lualine/lualine.nvim",  -- 状态栏
     "nvim-tree/nvim-tree.lua",  -- 文档树
     "nvim-tree/nvim-web-devicons", -- 文档树图标
+    "windwp/nvim-autopairs", -- 自动补全括号
 }
 local opts = {} -- 注意要定义这个变量
 
