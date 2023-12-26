@@ -17,11 +17,22 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Plugins
 local plugins = {
-    "folke/tokyonight.nvim", -- 主题
-    "nvim-lualine/lualine.nvim",  -- 状态栏
-    "nvim-tree/nvim-tree.lua",  -- 文档树
-    "nvim-tree/nvim-web-devicons", -- 文档树图标
-    "windwp/nvim-autopairs", -- 自动补全括号
+    {
+        "folke/tokyonight.nvim",    -- 主题
+        lazy = false,
+        priority = 1000,
+        opts = {},
+    },
+    {
+        'nvim-lualine/lualine.nvim',    -- 状态栏
+        dependencies = { 'nvim-tree/nvim-web-devicons' }
+    },
+    "nvim-tree/nvim-tree.lua",   -- 文件树
+    {
+        'windwp/nvim-autopairs',    -- 自动补全括号
+        event = "InsertEnter",
+        opts = {} -- this is equalent to setup({}) function
+    }
 }
 local opts = {} -- 注意要定义这个变量
 

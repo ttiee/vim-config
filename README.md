@@ -28,8 +28,8 @@ Plugin Install | 插件安装
 
 `:Lazy`打开插件管理面板
 
-- 主题: [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim.git)
-- 状态栏 [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim.git)
-- 文档树: [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua.git)
-- 文档树图标: [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons.git)
-- 自动补全括号: [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs.git)
+- 主题: [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
+- 状态栏 [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)
+- 文档树: [nvim-tree/nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+- 文档树图标: [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
+- 自动补全括号: [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs)
