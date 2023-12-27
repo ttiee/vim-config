@@ -14,7 +14,8 @@
 ```bash
 sudo apt install vim
 ```
-or
+
+对于Arch Linux:
 ```bash
 pacman -S vim
 ```

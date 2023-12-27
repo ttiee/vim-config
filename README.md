@@ -5,7 +5,7 @@
 
 This is my `vim` configuration, which is mainly used for Text editing and Markdown editing.
 
-The branch of [Arch-vim](https://github.com/ttiee/vim-config/tree/Arch-vim) is my `neovim configuration`.
+The branch of [Arch-nvim](https://github.com/ttiee/vim-config/tree/Arch-vim) is my `neovim configuration`.
 
 ## Installation
 
@@ -14,7 +14,8 @@ The branch of [Arch-vim](https://github.com/ttiee/vim-config/tree/Arch-vim) is m
 ```bash
 sudo apt install vim
 ```
-or
+
+For Arch Linux:
 ```bash
 pacman -S vim
 ```
