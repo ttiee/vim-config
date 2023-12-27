@@ -14,7 +14,7 @@ The branch of [Arch-vim](https://github.com/ttiee/vim-config/tree/Arch-vim) is m
 ```bash
 sudo apt install vim
 ```
-or
+For Arch Linux:
 ```bash
 pacman -S vim
 ```
