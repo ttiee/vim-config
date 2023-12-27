@@ -5,7 +5,7 @@
 
 我的 `vim` 配置文件，主要用于文本编辑、Markdown 编辑。
 
-[Arch-nvim](https://github.com/ttiee/vim-config/tree/Arch-vim) 分支是我的 `neovim` 配置。
+[Arch-nvim](https://github.com/ttiee/vim-config/tree/Arch-nvim) 分支是我的 `neovim` 配置。
 
 ## 安装
 
