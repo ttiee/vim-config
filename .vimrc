@@ -52,6 +52,11 @@ nnoremap <leader>p :PlugInstall<CR> " leader+p键安装插件
 nnoremap <leader>e :NERDTreeToggle<CR> " leader+e键切换目录树
 
 
+" 个人信息
+abbreviate myemail 469784630@11.com
+abbreviate myname ttiee
+
+
 " 状态栏主题
 let g:airline_theme='gruvbox'
 
