@@ -10,3 +10,5 @@ opt.autoindent = true
 
 --
 opt.wrap = false
+
+opt.scrolloff = 8
