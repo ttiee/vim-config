@@ -46,14 +46,14 @@ local nvim_autopairs = {
 local treesitter = {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
-    config = function () 
+    config = function ()
       local configs = require("nvim-treesitter.configs")
 
       configs.setup({
           ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "elixir", "heex", "javascript", "html", "python" },
           sync_install = false,
           highlight = { enable = true },
-          indent = { enable = true },  
+          indent = { enable = true },
         })
     end
  }
@@ -64,7 +64,8 @@ local plugins = {
     lualine,    -- 状态栏
     nvim_tree,    -- 文件树
     nvim_autopairs,    -- 自动补全括号
-    treesitter    -- 语法高亮
+    treesitter,    -- 语法高亮
+    {'neoclide/coc.nvim', branch = 'release'}
 }
 local opts = {} -- 注意要定义这个变量
 

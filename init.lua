@@ -8,3 +8,4 @@ require("plugins.plugin-manager")
 
 -- Plugins configuration
 require("plugins.plugin-config")
+
