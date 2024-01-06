@@ -57,6 +57,11 @@ local treesitter = {
         })
     end
  }
+-----------------------copilot------------------------------
+local copilot = {
+        "github/copilot.vim",
+}
+
 
 ------------------------Plugin Manager------------------------
 local plugins = {
@@ -65,7 +70,8 @@ local plugins = {
     nvim_tree,    -- 文件树
     nvim_autopairs,    -- 自动补全括号
     treesitter,    -- 语法高亮
-    {'neoclide/coc.nvim', branch = 'release'}
+    {'neoclide/coc.nvim', branch = 'release'},
+        copilot
 }
 local opts = {} -- 注意要定义这个变量
 
